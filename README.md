@@ -12,3 +12,6 @@ lang_main, lang_new, lang_peers, lang_polls, lang_recover, lang_smf_import, lang
 
 ## _Instructions:_ 
 Download version 2.5.4, upload (paste whatever) the czech folder into the language folder. Install the language through admin control panel. Have fun.
+
+## _Last words:_ 
+Any help is appreciated :)
