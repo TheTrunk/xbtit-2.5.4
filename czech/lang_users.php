@@ -2,20 +2,20 @@
 
 // ENGLISH USERS.PHP FILE
 
-$language['FIND_USER']       = 'Find User';
-$language['USER_LEVEL']      = 'User Level';
-$language['ALL']             = 'All';
-$language['SEARCH']          = 'Search';
-$language['USER_NAME']       = 'Username';
-$language['USER_LEVEL']      = 'Userlevel';
-$language['USER_JOINED']     = 'Joined on';
-$language['USER_LASTACCESS'] = 'Last access';
-$language['USER_COUNTRY']    = 'Country';
+$language['FIND_USER']       = 'Najít uživatele';
+$language['USER_LEVEL']      = 'Úroveň uživatele';
+$language['ALL']             = 'Všichni';
+$language['SEARCH']          = 'Vyhledat';
+$language['USER_NAME']       = 'Uživatelské jméno';
+$language['USER_LEVEL']      = 'Úroveň uživatele';
+$language['USER_JOINED']     = 'Přidal se';
+$language['USER_LASTACCESS'] = 'Poslední přihlášení';
+$language['USER_COUNTRY']    = 'Země';
 $language['RATIO']           = 'Ratio';
 $language['USERS_PM']        = 'PM';
-$language['EDIT']            = 'Edit';
-$language['DELETE']          = 'Delete';
-$language['NO_USERS_FOUND']  = 'No users found!';
+$language['EDIT']            = 'Upravit';
+$language['DELETE']          = 'Smazat';
+$language['NO_USERS_FOUND']  = 'Žádný uživatel nenalezen!';
 $language['UNKNOWN']         = 'Unknown';
 
 ?>
