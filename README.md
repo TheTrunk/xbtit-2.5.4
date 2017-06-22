@@ -11,7 +11,7 @@ lang_account, lang_admin, lang_blocks, lang_forum, lang_history, lang_ipb_import
 lang_main
 
 **TODO:**
-Corrections, testing
+Corrections, testing, fine-tuning
 
 ## _Instructions:_ 
 Download version 2.5.4, upload (paste whatever) the czech folder into the language folder. Install the language through admin control panel. Have fun.
