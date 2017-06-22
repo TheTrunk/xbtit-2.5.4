@@ -5,29 +5,29 @@ if(!isset($_GET["smf_type"]))
 
 // smf_import.php language file
 
-$lang[0]='Yes';
-$lang[1]='No';
-$lang[2]='<center><u><strong><font size="4" face="Arial">Stage 1: Initial Requirements</font></strong></u></center><br />';
-$lang[3]='<center><strong><font size="2" face="Arial">SMF files present in the "smf" folder?<font color="';
+$lang[0]='Ano';
+$lang[1]='Ne';
+$lang[2]='<center><u><strong><font size="4" face="Arial">Fáze 1: Prvotní požadavky</font></strong></u></center><br />';
+$lang[3]='<center><strong><font size="2" face="Arial">Jsou SMF soubory přítomny v "smf" adresáři?<font color="';
 $lang[4]='">&nbsp;&nbsp;&nbsp; ';
 $lang[5]='</font></center></strong>';
-$lang[6]='<br /><center>Please <a target="_new" href="http://www.simplemachines.org/download/">download SMF</a> and upload the contents of the archive to the "smf" folder.<br />If you don&rsquo;t have a "smf" folder please create one in your tracker root and upload<br />the contents of the archive to it.<br /><br />Once uploaded p'; // p at end is a lowercase p for use with $lang[8]
+$lang[6]='<br /><center>Prosím <a target="_new" href="http://www.simplemachines.org/download/">stáhněte SMF</a> a nahrajte obsah archivu do "smf" adresáře.<br />Jestliže nemáte "smf" adresář, vytvořte jej v rootu vašeho trackeru a nahrajte<br /> do něj obsah archivu.<br /><br />Jakmile nahráno p'; // p at end is a lowercase p for use with $lang[8]
 $lang[7]='<br /><center>P'; // P at end is an uppercase p for use with $lang[8]
-$lang[8]='lease install SMF by <a target="_new" href="smf/install.php">clicking here</a>*<br /><br /><strong>* Please use the same database login details as those used for your tracker,<br />you can use any database prefix you want (excluding the prefix used by the<br />tracker where applicable)<br /><br />';
-$lang[9]='<font color="#0000FF" size="3">You may refresh this page once you have completed the required task!</font></strong></center>';
-$lang[10]='<center><strong>SMF installed?<font color="';
-$lang[11]='File not found!';
-$lang[12]='File found but not writable!';
-$lang[13]='<center><strong>Default SMF English Errors file available and writable?<font color="';
-$lang[14]='<center><strong>smf.sql file present in the "sql" folder?<font color="';
-$lang[15]='<br /><center><strong>Language file (';
-$lang[16]=')<br />is missing, please ensure <font color="#FF0000"><u>all SMF files</u></font> were uploaded!<br /><br />';
-$lang[17]=')<br />is not writable, <font color="#FF0000"><u>please CHMOD this file to 777</u></font><br /><br />';
-$lang[18]='<br /><center><strong>smf.sql is missing, <font color="#FF0000"><u>please ensure this file is present in the "sql" folder.</u></font><br />(It should be included with the XBTIT distribution!)<br /><br />';
-$lang[19]='<br /><center>All requirements have been met, please <a href="';
-$lang[20]='">click here to continue</a></center>';
-$lang[21]='<center><u><strong><font size="4" face="Arial">Stage 2: Initial Setup</font></strong></u></center><br />';
-$lang[22]='<center>Now that we&rsquo;ve verified everything is in place it&rsquo;s time to modify the database<br />to bring everything in line with the tracker.</center><br />';
+$lang[8]='rosím nainstalujte SMF <a target="_new" href="smf/install.php">kliknutím zde</a>*<br /><br /><strong>* Prosím použijte stejné přihlašovací údaje databáze jako používáte na trackeru.<br />Můžete použít jakýkoliv databázový prefix. (kromě toho, který používá tracker)<br /><br />';
+$lang[9]='<font color="#0000FF" size="3">Jakmile je úloha dokončena, můžete obnovit tuto stránku!</font></strong></center>';
+$lang[10]='<center><strong>SMF nainstalováno?<font color="';
+$lang[11]='Soubor nenalezen!';
+$lang[12]='Soubor nalezen, ale není zapisovatelný!';
+$lang[13]='<center><strong>Základní SMF chyba. Je soubor dostupný a zapisovatelný?<font color="';
+$lang[14]='<center><strong>Je smf.sql soubor přítomen v "sql" adresáři?<font color="';
+$lang[15]='<br /><center><strong>Jazykový soubor (';
+$lang[16]=')<br />chybí, prosím ujistěte se, <font color="#FF0000"><u>že všechny SMF soubory</u></font> byly nahrány!<br /><br />';
+$lang[17]=')<br />není zapisovatelný, <font color="#FF0000"><u>prosím CHMOD tento soubor na 777</u></font><br /><br />';
+$lang[18]='<br /><center><strong>smf.sql chybí, <font color="#FF0000"><u>prosím ujistěte se, že je tento soubor přítomen v "sql" adresáři.</u></font><br />(Bývá zahrnut společně s XBTIT distribucí!)<br /><br />';
+$lang[19]='<br /><center>Všechny požadavky splněny, prosím <a href="';
+$lang[20]='">klikněte zde pro pokračování</a></center>';
+$lang[21]='<center><u><strong><font size="4" face="Arial">Fáze 2: Prvotní nastavení</font></strong></u></center><br />';
+$lang[22]='<center>Nyní, když jsme oveřili, že je vše na svém místě, nastal čas upravit databázi,<br />aby vše bylo v souladu s trackerem.</center><br />';
 $lang[23]='<center><form name="db_pwd" action="smf_import.php" method="GET">Enter Database password:&nbsp;<input name="pwd" size="20" /><br />'."\n".'<br />'."\n".'<strong>please click <input type="submit" name="confirm" value="yes" size="20" /> to proceed</strong><input type="hidden" name="act" value="init_setup" /><input type="hidden" name="smf_type" value="'.$_GET["smf_type"].'" /></form></center>';
 $lang[24]='<center><u><strong><font size="4" face="Arial">Stage 3: Importing the tracker members</font></strong></u></center><br />';
 $lang[25]='<center>Now the database has been setup correctly it&rsquo;s time to start importing the tracker members,<br />This can take some time if you have a large memberbase so please be patient and allow<br />the script to do it&rsquo;s work!<br /><br /><strong>please <a href="'.$_SERVER['PHP_SELF'].'?act=member_import&amp;confirm=yes&smf_type='.$_GET["smf_type"].'">click here</a> to proceed</center>';
