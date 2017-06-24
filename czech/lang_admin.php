@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL & ~E_NOTICE);
 GLOBAL $XBTT_USE;
-$language['ACP_BAN_IP']='Ban IPs';
+$language['ACP_BAN_IP']='Ban IP';
 $language['ACP_FORUM']='Nastavení fóra';
 $language['ACP_USER_GROUP']='Uživatelských skupin';
 $language['ACP_STYLES']='Nastavení stylu';
@@ -211,8 +211,8 @@ $language['SEARCH_DIFF_CHANGE_GROUP']='Změnit skupinu uživatelů';
 $language['PRUNE_TORRENTS_PRUNED']='Neaktivní torrenty';
 $language['PRUNE_TORRENTS']='Zneaktivnit torrenty';
 $language['PRUNE_TORRENTS_INFO']='Vložit počet dní, po kterých je torrent považován za "mrtvý"';
-$language['LEECHERS']='leecher(s)';
-$language['SEEDS']='seed(s)';
+$language['LEECHERS']='leecher(ů)';
+$language['SEEDS']='seeder(ů)';
 // DBUTILS
 $language['DBUTILS_TABLENAME']='Název tabulky';
 $language['DBUTILS_RECORDS']='Záznamy';
