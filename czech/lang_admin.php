@@ -211,8 +211,8 @@ $language['SEARCH_DIFF_CHANGE_GROUP']='Změnit skupinu uživatelů';
 $language['PRUNE_TORRENTS_PRUNED']='Neaktivní torrenty';
 $language['PRUNE_TORRENTS']='Zneaktivnit torrenty';
 $language['PRUNE_TORRENTS_INFO']='Vložit počet dní, po kterých je torrent považován za "mrtvý"';
-$language['LEECHERS']='leecher(ů)';
-$language['SEEDS']='seeder(ů)';
+$language['LEECHERS']='leecherů';
+$language['SEEDS']='seederů';
 // DBUTILS
 $language['DBUTILS_TABLENAME']='Název tabulky';
 $language['DBUTILS_RECORDS']='Záznamy';
