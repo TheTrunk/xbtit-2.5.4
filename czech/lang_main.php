@@ -445,7 +445,7 @@ $language['FIRST_UNREAD']='Přejít na první nepřečtený příspěvek';
 $language['MODULE_UNACTIVE']='Požadovaný modul není aktivní!';
 $language['MODULE_NOT_PRESENT']='Požadovaný modul neexistuje!';
 $language['MODULE_LOAD_ERROR']='Požadovaný modul je chybný!';
-$language['RESET_PID'] = 'Resetovat PID';
+$language['RESET_PID']='Resetovat PID';
 
 # Language definitions added by TreetopClimber.
 $language['EXTRA']='extra';
