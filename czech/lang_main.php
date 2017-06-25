@@ -474,7 +474,7 @@ $language["QUAR_TMP_FILE_MISS"]="Nelze nalézet soubor temp!";
 
 $language["SECSUI_ACC_PWD_1"]="Vaše heslo potřebuje:";
 $language["SECSUI_ACC_PWD_1A"]="Vaše heslo potřebuje:";
-$language["SECSUI_ACC_PWD_2"]="Mít minimálně";
+$language["SECSUI_ACC_PWD_2"]="Být minimálně";
 $language["SECSUI_ACC_PWD_3"]="znak dlouhé";
 $language["SECSUI_ACC_PWD_3A"]="znaků dlouhé";
 $language["SECSUI_ACC_PWD_4"]="Obsahovat minimálně";
