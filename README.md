@@ -8,10 +8,10 @@ Done. Feel free to use, report bugs.
 
 ## _Progress:_
 **Finished:**
-lang_account, lang_admin, lang_blocks, lang_forum, lang_history, lang_ipb_import, lang_login, lang_new, lang_peers, lang_polls, lang_torrents, lang_upload, lang_usercp, lang_userdetails, lang_users, lang_viewnew, lang_recover, lang_smf_import, lang_main
+lang_account, lang_admin, lang_blocks, lang_forum, lang_history, lang_ipb_import, lang_login, lang_new, lang_peers, lang_polls, lang_torrents, lang_upload, lang_usercp, lang_userdetails, lang_users, lang_viewnew, lang_recover, lang_smf_import, lang_main, install_lang/install.czech
 
 **Working on:**
-install_lang - install.czech.php (translating); Corrections, testing, fine-tuning
+Corrections, testing, fine-tuning
 
 **TODO:**
 Nothing?
